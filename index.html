@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InstaNews</title>
+    <link rel="icon" href="assets/images/nyt-logo.svg" type="image/x/icon" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./build/css/style.min.css" />
+</head>
+
+<body>
+
+<header class="headerAlign">
+    <div class="headerDiv">
+        <img src="assets/images/nyt-logo.svg" class="logo" id="idLogo" alt="The NewYork Time logo">
+        <section class="liste" id="idListe">
+            <p class="textAtTop">Choose a section:</p>
+            <form>
+                <select name="menulist" id="ajax-load">
+                    <option value="basic" selected>Sections ...</option>
+                    <option value="technology">Technology</option>
+                    <option value="sports">Sport</option>
+                    <option value="arts">Art</option>
+                    <option value="health">Health</option>
+                </select>
+            </form>
+        </section>
+    </div>
+</header>
+
+
+
+<main class="articleBlock">
+    <article class="all-articles">
+      
+    </article>
+</main>
+
+
+
+<footer>
+    <section class="credit">
+        <p>© Copyright 2019 INSTANEWS</p>
+    </section>
+</footer>
+<div class='loader'><img id="ajax-loading" src="assets/images/ajax-loader.gif" alt="Loading" /></div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+<script src="./build/js/main.min.js"></script>   
+</body>
+</html>
+

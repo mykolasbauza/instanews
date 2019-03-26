@@ -1,0 +1,39 @@
+@import 'reset';
+@import 'fonts';
+@import 'mixin';
+@import 'variables';
+@import 'header';
+@import 'article';
+@import 'animations';
+@import 'footer';
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: $backgroundColor;
+    @include font;
+    height: 86vh;
+}
+
+//Gif
+
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    img {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
